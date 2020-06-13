@@ -10,9 +10,9 @@ chrome_options.add_argument('--disable-gpu')
 chrome_options.add_argument('window-size=1200x600')
 #**********************************************************************************************************************************#
 #Use this if you want to run the script with the options above without opening the browser
-#browser = webdriver.Chrome(options=chrome_options)
+browser = webdriver.Chrome(options=chrome_options)
 #Replace by this line below if you want to test the script opening the browser to see what is happening step by step on your machine
-browser = webdriver.Chrome()
+#browser = webdriver.Chrome()
 
 #STEP 1: Opening the URL you want to capture the screen
 url1 = ('https://time.is/')
